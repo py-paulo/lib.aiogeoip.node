@@ -1,4 +1,3 @@
-const { httpGet, httpGetAsync } = require("./utils/requests");
 const ipApiBackend = require('./services/ipApiBackend');
 
 const backendMap = {

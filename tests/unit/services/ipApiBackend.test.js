@@ -1,6 +1,4 @@
-const { timeStamp } = require('console');
 const dns = require('dns');
-const { TestWatcher } = require('jest');
 
 const ipApiBackend = require('../../../src/services/ipApiBackend');
 
