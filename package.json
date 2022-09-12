@@ -1,0 +1,20 @@
+{
+  "name": "aiogeoip",
+  "version": "0.0.1",
+  "description": "Real asynchronous geolocation by IP address with asyncio support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "geoip",
+    "aio"
+  ],
+  "author": "py-paulo",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "queue": "^6.0.2"
+  }
+}
