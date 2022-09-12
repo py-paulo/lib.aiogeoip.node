@@ -14,6 +14,31 @@
 
 A biblioteca implementa as requisições a *API* de geolocalização, lidando de forma eficiênte com grande número de requisições,  possíveis erros de *timeout* e paralelismo.
 
+## Usage
+
+**Usando `callback`**
+
+```javascript
+const AioGeoIp = require('./src/core');
+
+const aio = new AioGeoIp();
+aio.geoip('187.19.215.30', (err, data) => { console.log(data); });
+```
+
+**Usando *async* *await***
+
+```javascript
+const AioGeoIp = require('./src/core');
+
+async function main() {
+    const aio = new AioGeoIp();
+    const data = await aio.geoipAsync('187.19.214.102');
+    console.log(data);
+}
+
+main()
+```
+
 ### Features
 
 * [x] Requisição a API de geolocalização retornando um objeto com as informações.
